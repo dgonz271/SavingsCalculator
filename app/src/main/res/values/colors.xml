@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="my_yellow">#e5e96a</color>
+    <color name="black">#a5000000</color>
+
+    <color name="my_seagreen">#a4ebd7</color>
+    <color name="my_seagreen_complementary">#ebb1a4</color><!-- red orange-->
+    <color name="my_s_c_mono">#d27c69</color>
+    <color name="my_blue">#a4b8eb</color><!--my_seagreen_analogous-->
+    <color name="my_blue_mono">#6986d2</color>
+<color name="my_blue_comp">#ebc3a4</color>
+    <color name="light_blue">#dad9f2</color>
+
+    <color name="another_blue">#9bc3eb</color>
+
+
+</resources>

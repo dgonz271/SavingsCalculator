@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/my_blue_comp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="324dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/title_background"
+        android:elevation="10dp"
+        android:fontFamily="@font/arimo_italic"
+        android:gravity="center"
+        android:text="Welcome to the Savings Calculator"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="324dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/title_background"
+        android:elevation="10dp"
+        android:fontFamily="@font/arimo_italic"
+        android:gravity="center"
+        android:text="This app will help you calculate how much money you will have saved in a certain period of time by information you provide. (ex: Saving $10 every 7 days for 100 days) "
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/amt_input"
+        android:layout_width="174dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="197dp"
+
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Amount you will save (ex: $10)"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="false"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/days_input"
+        android:layout_width="282dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Every how often you will save this amount (in days)"
+        android:inputType="number"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/edays_input"
+        android:layout_width="295dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="193dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="In how many days will you stop saving? (ex: 100 days)"
+        android:inputType="number"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/title2_background"
+        android:elevation="10dp"
+        android:fontFamily="@font/arimo_italic"
+        android:gravity="center"
+        android:text="Reset"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/print_result"
+        android:layout_width="292dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp"
+        android:background="@drawable/title2_background"
+        android:elevation="10dp"
+        android:fontFamily="@font/arimo_italic"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/final_result_button"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="138dp"
+        android:background="@drawable/title2_background"
+        android:elevation="10dp"
+        android:fontFamily="@font/arimo_italic"
+        android:gravity="center"
+        android:text="Final Result"
+        android:textSize="14sp" />
+
+</RelativeLayout>
