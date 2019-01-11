@@ -1,4 +1,4 @@
-## **SavingsCalculator** - Android App
+## *SavingsCalculator* - Android App
 
 ### App Description
 This app calculates how much money will be saved after a period of time using the following input:
